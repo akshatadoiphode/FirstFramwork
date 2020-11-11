@@ -18,8 +18,7 @@ public class LoginFBTest extends BaseClass {
 	
 @Test
 public void loginApp() {
-	
-	//new comment
+		//new comment
 	LoginFBPage page=PageFactory.initElements(driver, LoginFBPage.class);
 	excelDataProvider excel= new excelDataProvider();
 	
